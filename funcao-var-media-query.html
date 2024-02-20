@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função var em media query</title>
+
+    <style>
+        :root {
+            --bg-color: #000;
+            --bg-second: purple;
+            --font-size: 25px;
+        }
+        body {
+            background-color: var(--bg-color);
+            font-size: var(--font-size);
+        }
+        h1 {
+            color: var(--font-color, #fff);
+        }
+        .container {
+            background-color: var(--bg-second);
+            color: var(--font-color);
+        }
+        @media (max-width: 450px) {
+            :root {
+                --font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Função var em media query</h1>
+    <div class="container">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+</body>
+</html>

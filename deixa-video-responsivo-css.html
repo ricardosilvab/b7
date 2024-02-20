@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack CSS: Altura relativa a largura</title>
+
+    <style>
+        .video {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+        }
+        .video-area {
+            position: relative;
+            height: 0px;
+            background-color: #ccc;
+            padding: 0px 0px 56.25%;
+        }
+        .video-area iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            border: 0px;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Deixando video responsivo</h1>
+    
+    <div class="video">
+        <div class="video-area">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/Lx_YsoMgP40?si=oXqZAx9Tt1DkIOn5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <h2>Achando a porcentagem do padding</h2>
+   <p>Altura DIVIDIDO por LARGURA , VEZES 100</p>
+</body>
+</html>

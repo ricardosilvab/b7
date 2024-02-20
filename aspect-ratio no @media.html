@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspect-ratio media</title>
+
+    <style>
+        @media (aspect-ratio: 1/1) {
+            body {
+                background-color: red;
+            }
+        }
+        @media (min-aspect-ratio: 2/1) {
+            body {
+                background-color: purple;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>aspect-ratio 1/1</h1>
+    <p>É usado para mudanças quando a altura e a largura estiverem com o mesmo tamanho</p>
+
+    <h1>aspect-ratio 2/1</h1>
+    <p>Quando o tamanho da altura for menor que a largura </p>
+</body>
+</html>
