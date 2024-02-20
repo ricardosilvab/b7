@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: palevioletred;
+}
+
+/* 
+
+        @media (min-width: 1000px) {
+        body {
+            background-color: blue;
+        }
+    }
+
+    @media (min-width: 700px) and (max-width: 999px) {
+        body {
+            background-color: purple;
+        }
+    }
+
+    @media (min-width: 300px) and (max-width: 700px) {
+        body {
+            background-color: royalblue;
+        }
+    }
+
+
+    @media (max-width: 600px)  {
+        body {
+            background-color: red;
+        }
+        h1 {
+            font-size: 13px;
+        }
+    } 
+
+*/
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}   
+@media only print {
+    h1 {
+        display: none; /* remove a mensagem do h1 */
+        font-size: 16px;
+        font-weight: normal;
+    }
+    table, td {
+        border: 0;
+    }
+}
