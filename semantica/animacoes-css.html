@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações com CSS</title>
+
+    <style>
+        @keyframes exemplo {
+            0% {background-color: black;}
+            25% {background-color: yellow;}
+            50% {background-color: blue;}
+            75% {background-color: purple;}
+            100% {background-color: red;}
+        }
+        body {
+            margin: 0;
+        }
+        .exemplo {
+            width: 150px;
+            height: 150px;
+            background-color: aqua;
+            animation-name: exemplo;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="exemplo">
+
+    </div>
+</body>
+</html>
