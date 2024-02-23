@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução FlexBox</title>
+
+    <style>
+    .container {
+        background-color: #ddd;
+        display: flex;
+        flex-direction: row;
+    }
+     .div1 {
+        flex: 1;
+        background-color: purple;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+        height: 300px;
+    }
+    .div2 {
+        flex: 1;
+        background-color: purple;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .div3 {
+        flex: 2;
+        background-color: purple;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+    </div>
+</body>
+</html>
