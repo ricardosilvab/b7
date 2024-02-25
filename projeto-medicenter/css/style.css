@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {margin: 0;padding: 0;box-sizing: border-box;}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.container {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c7434;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu {
+
+}
