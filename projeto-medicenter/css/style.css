@@ -197,7 +197,7 @@ nav .active a, nav a:hover {
 }
 article {
     flex: 1;
-    min-width: 300px;
+    width: 300px;
 }
 article a {
     text-decoration: none;
@@ -220,9 +220,11 @@ article .news_comments {
     display: flex;
     padding: 10px;
 }
-article .news_thumbmail {
+article .news_thumbmail img {
+    display: flex;
+    justify-content: space-between;
     margin-top: 30px;
-    width: 100%;
+    width: 300px;
     height: auto;
 }
 article .news_title {
