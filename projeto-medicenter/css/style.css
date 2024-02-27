@@ -12,7 +12,7 @@ header {
     height: 150px;
 }
 .container {
-    width: 920px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
 }
@@ -88,6 +88,7 @@ nav .active a, nav a:hover {
 .banner_options {
     display: flex;
     height: 210px;
+    width: 1244px;
 }
 .banner1, .banner2, .banner3 {
     flex: 1;
@@ -167,10 +168,14 @@ nav .active a, nav a:hover {
     height: 3px;
     margin-top: 10px;
 }
+.widget_departaments {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 230px;
+}
 .widget_body {
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
 }
 .widget_box {
     width: 150px;
@@ -185,4 +190,49 @@ nav .active a, nav a:hover {
     color: #fff;
     font-size: 15px;
     margin-top: 60px;
-  }
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    flex: 1;
+    min-width: 300px;
+}
+article a {
+    text-decoration: none;
+}
+article .news_date {
+    display: flex;
+}
+article .news_posted {
+    background-color: #2b4c99;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    padding: 10px;
+    margin-right: 2px;
+}
+article .news_comments {
+    background-color: #39aae1;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    padding: 10px;
+}
+article .news_thumbmail {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+article .news_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+}
+article .news_resume {
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 21px;
+}
