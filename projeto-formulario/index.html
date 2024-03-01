@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Projeto - Formulario</title>
+</head>
+<body>
+    <section id="box">
+        <div class="box_border">
+        <form action="cadastro.php" method="post">
+        <label for="iname">Nome</label>
+        <input type="text" name="name" id="iname" autofocus required>
+
+        <label for="isobrenome">Sobrenome</label>
+        <input type="text" name="sobrenome" id="isobrenome">
+     
+        <label for="imail">E-mail</label>
+        <input type="email" name="email" id="imail">
+    
+        <label for="isenha">Senha</label>
+        <input type="password" name="senha" id="isenha">
+
+        <label for="isexo">Sexo</label>
+        <select name="sexo" id="isexo">
+            <option value="Selecione uma opção" selected disabled>Selecione uma opção</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+        </select>
+        <label for="itelefone">Telefone</label>
+        <input type="tel" name="telefone" id="itelefone">
+        </form>
+    </div>
+    </section>
+</body>
+</html>
