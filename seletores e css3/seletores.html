@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+        input, a {
+            display: block;
+        }
+        [required] {
+            background-color: aqua;
+        }
+        input[type=text] { /* [name="username"]  */
+            background-color: rgb(11, 61, 44);
+        }
+
+        a[href*="economia"] {
+            background-color: purple;
+        }
+        a[href*="futebol"] {
+            background-color: magenta;
+        }
+
+        a[href^="https:"] {
+            background-color: bisque;
+        }
+
+        a[href^="http"] {
+            background-color: rgb(255, 143, 6);
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="user" id="user" >
+    <input type="password" name="pass" id="pass" required>
+
+    <a href="#">Google</a>
+    <a href="#">Site</a>
+    <a href="#">Whatsapp</a>
+    <a href="https://g1.globo.com/economia/noticia/2024/03/01/brasil-volta-ao-grupo-das-10-maiores-economias-do-mundo-com-resultado-do-pib-de-2023.ghtml">News</a>
+    <a href="http://ge.globo.com/futebol/selecao-brasileira/ao-vivo/assista-a-convocacao-da-selecao-para-os-amistosos-contra-inglaterra-e-espanha.ghtml">Futebol</a>
+</body>
+</html>
