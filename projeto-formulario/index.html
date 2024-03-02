@@ -7,31 +7,26 @@
     <title>Projeto - Formulario</title>
 </head>
 <body>
-    <div class="container">
-        <form action="cadastro.php" method="post">
-            <div class="box_border">
-        <label for="iname">Nome</label>
-        <input type="text" name="name" id="iname" autofocus required>
-
-        <label for="isobrenome">Sobrenome</label>
-        <input type="text" name="sobrenome" id="isobrenome">
-     
-        <label for="imail">E-mail</label>
-        <input type="email" name="email" id="imail">
-    
-        <label for="isenha">Senha</label>
-        <input type="password" name="senha" id="isenha">
-
-        <label for="isexo">Sexo</label>
-        <select name="sexo" id="isexo">
-            <option value="Selecione uma opção" selected disabled>Selecione uma opção</option>
-            <option value="Masculino">Masculino</option>
-            <option value="Feminino">Feminino</option>
-        </select>
-        <label for="itelefone">Telefone</label>
-        <input type="tel" name="telefone" id="itelefone">
+    <main id="container">
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <div class="user">
+            <p>
+                <label for="iuser">Usuario: </label>
+                <input type="text" name="user" id="iuser" minlength="5" maxlength="10" placeholder="José Mourinho" autocomplete="username" required>
+            </p>
+        </div>
+        <div class="pass">
+            <p>
+                <label for="ipass">Senha: </label>
+                <input type="password" name="pass" id="ipass" minlength="5" maxlength="10" placeholder="**********" autocomplete="current-password" required>
+                <!-- current-password  SENHA ATUAL-->
+            </p>
+        </div>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
         </form>
-    </div>
-    </div>
+    </main>
 </body>
 </html>
