@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seletor before e after</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        span::before {
+            content:"🔥";
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 255, 255, 0.26);
+        }
+        span::after {
+            content:"😎";
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 255, 255, 0.26);
+        }
+    </style>
+</head>
+<body>
+    <span>TEXTO 1</span>
+</body>
+</html>
