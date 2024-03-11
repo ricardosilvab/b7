@@ -355,7 +355,8 @@ section.default {
     align-items: center;
     justify-content: center;
     height: 100%;
-    color: #fff;
+    color: #000;
+    padding: 30px;
 }
 /* sliders-pointers our team */
 .section-teamarea .sliders-pointers {
@@ -376,4 +377,184 @@ section.default {
 }
 .section-teamarea .pointer.active {
     background-color: #b28756;
+}
+
+/* our team avatar/role/social */
+.section-team-avatar {
+    width: 120px;
+    height: auto;
+}
+.section-team-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.section-team-role {
+    font-size: 14px;
+    color: #444;
+    margin-top: 5px;
+}
+.section-team-social {
+   display: flex;
+   margin-top: 20px;
+}
+.section-team-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+.section-team-social a:hover {
+    background-color: #b28756;
+}
+
+/* section happy clients */
+.happy-clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-happy-avatar {
+    width: 120px;
+    height: auto;
+}
+.happy-clients-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.happy-clients-role {
+    font-size: 14px;
+    color: #444;
+    margin-top: 5px;
+}
+.happy-clients-testimony {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 650px;
+    line-height: 30px;
+}
+/* happy clients pointers */
+
+/* sliders-pointers our team */
+.happy-clients .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.happy-clients .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.happy-clients .pointer.active {
+    background-color: #b28756;
+}
+/* company logo */
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-logo {
+    display: flex;
+    padding: 30px;
+    gap: 150px;
+}
+
+/* section prices */
+.section-prices {
+    display: flex;
+}
+.section-price {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+.section-price h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.section-price h3 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+.section-price span {
+    text-transform: uppercase;
+    color: #999;
+}
+.section-price p {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #999;
+}
+.btn-price {
+    display: inline-block;
+    background-color: #06080a;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+/* map area */
+.section-map {
+    background-image: url(../images/complementos/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+.section-map--area {
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+}
+.section-map--info {
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    color: #000;
+}
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    color: #999;
+    margin-bottom: 10px; 
+}
+.section-map--info-item-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #999;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-right: 15px;
+}
+.section-map--info-item-img img {
+    width: 15px;
+    height: auto;
 }
