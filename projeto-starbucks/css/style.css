@@ -231,3 +231,10 @@ footer {
     color: white;
     height: 100px;
 }
+/* responsive */
+    .area1--content,
+    .area2--content,
+    .area3--content,
+    .area4--content {
+        padding: 60px 150px;
+    }
