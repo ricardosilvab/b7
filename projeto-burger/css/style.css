@@ -134,6 +134,40 @@ header .menu-icon div {
 .hero .button:hover {
     background-color: #bd4e09;
 }
+
+/* search */
+.search {
+    background-color: #1f1f1f;
+    padding: 80px 0px;
+    margin-top: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media tablet */
 @media (max-width: 820px ) {
     header nav {
@@ -161,4 +195,5 @@ header .menu-icon div {
         line-height: 50px;
     }
 }
+
 
